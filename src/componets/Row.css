@@ -1,0 +1,36 @@
+.wrapper{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.netflix-slider{
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    height: 180px;
+    overflow-y: hidden;
+    gap: 0.7rem;
+    padding: 0.8rem;
+    
+}
+
+.netflix-heading{
+    margin-left: 10px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.netflix-slider::-webkit-scrollbar{
+    display: none;
+}
+
+.netflix-slider-image{
+    transition: transform 0.8s;
+}
+
+.netflix-slider-image:hover{
+    transform: scale(1.09);
+}
